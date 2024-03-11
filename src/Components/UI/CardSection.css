@@ -1,0 +1,16 @@
+.CardSection{
+    position: sticky;
+    top: 0;
+    overflow: hidden; 
+    width: 70%;
+   
+    text-align: center;
+    height: 100%;
+    background: #292929;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.CardSection::-webkit-scrollbar {
+    display: none;
+  }

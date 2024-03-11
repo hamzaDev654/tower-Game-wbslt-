@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font: inherit;
+  
+}
+
+body{
+  background: #070707;
+  margin: 0;
+  padding: 0;
+}
+
+
+.parentblock__content {
+  display: flex;
+}

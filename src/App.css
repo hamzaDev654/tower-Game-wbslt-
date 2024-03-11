@@ -1,0 +1,16 @@
+.title__game {
+  /* display: flex; */
+  /* justify-content: center; */
+  position: absolute;
+  margin: 2rem;
+  margin-left: 14rem;
+  /* align-items: center; */
+  /* align-items: center; */
+}
+
+h2 {
+  font-size: xx-large;
+  color: #ccc;
+  /* text-align: center !important; */
+  /* display: flex; */
+}

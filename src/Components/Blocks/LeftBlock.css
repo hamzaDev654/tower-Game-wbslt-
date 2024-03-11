@@ -1,0 +1,69 @@
+.leftBlock {
+  width: 30%;
+  height: 100%;
+  margin: 2rem;
+  text-align: center;
+}
+
+.section__leftContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: inherit;
+  border: medium;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 7px;
+  font-size: 22px;
+}
+
+button.notStarted {
+  color: #141414;
+  background: linear-gradient(
+    225deg,
+    #77ffa8 0%,
+    #ffe081 33%,
+    #ffad8e 68%,
+    #a592ff 100%
+  );
+}
+
+button.startGame {
+  cursor: no-drop;
+  background-color: #444444;
+  color: #bcbcbc;
+  border: medium;
+  position: relative;
+}
+
+button.startGame::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 7, 7, 0.5);
+  border-radius: 7px;
+}
+
+.info__ {
+  max-width: 20rem;
+  height: fit-content;
+  padding: 1rem;
+  color: #bcbcbc;
+}
+p ,h3{
+  word-spacing: 3px;
+}

@@ -1,0 +1,44 @@
+.icon__section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+
+.animatedHandLeft {
+  animation: handAnimation 0.5s infinite; /* Adjusted animation speed to 0.5s */
+}
+
+.animatedHandRight {
+  animation: handAnimation 0.5s infinite; /* Adjusted animation speed to 0.5s */
+  animation-delay: 0.25s; /* Adjusted delay to 0.25s */
+}
+
+.animatedSadHandOnce {
+    align-items: center;
+  animation: animateOnce 2s forwards;
+}
+
+@keyframes animateOnce {
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(10px); /* Adjust the distance as needed */
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+@keyframes handAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
